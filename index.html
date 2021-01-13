@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <h2>Click a pair of cards</h2>
+    <div id="game">
+    </div>
+    <h3 id='score'>Current score:</h3>
+    <h3 id='best-score'>Best score:</h3>
+    <h3>
+      <form action='' id='new-game'>
+        <label for='pair-select'>Number of pairs: </label>
+        <select name="pairs" id="pair-select">
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="14">14</option>
+          <option value="16">16</option>
+          <option value="18">18</option>
+          <option value="20">20</option>
+          <option value="25">25</option>
+          <option value="30">30</option>
+        </select>
+        <button>New Game</button>
+      </form>
+    </h3>
+    <script src="script.js"></script>
+  </body>
+</html>
